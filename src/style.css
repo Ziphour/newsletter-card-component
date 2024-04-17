@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --button-color: #000000;
+
+  --FS--1: 1.5rem;
+  --FS--2: 1rem;
+  --FS--3: .875rem;
+  --FS--4: .75rem;
+
+  --Font: Arial, Helvetica, sans-serif;
+  --Font2: sans-serif;
+  --Font3: Merriweather;
+
+}
+
+body {
+  background-color: #e6e9fb;
+}
+
+.card {
+  width: 80%;
+  background-color: var(--background-color);
+  margin: auto auto;
+  margin-top: 100px;
+  /* makes  distance between top and centers it more*/
+  padding: 2.8rem;
+  border-radius: .8em;
+  box-shadow: 8px 6px 1px rgb(182, 191, 194);
+  
+  min-width: 40rem;
+  max-width: 60rem;
+}
+
+.card__header {
+
+  text-align: center;
+  /* background-color: blanchedalmond; */
+
+
+
+}
+
+.card__header>* {
+  margin-bottom: .5rem;
+
+}
+
+.card__header h2 {
+  font-size: 2rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+}
+
+.card__header p {
+  line-height: 1.3rem;
+  font-size: var(--FS--2);
+  font-family: var(--Font2);
+  font-weight: ;
+  max-width: 45rem;
+  margin: 0 auto .5rem auto;
+
+}
+
+
+
+
+.card__body {
+
+  margin: 0 auto;
+  min-width: 31rem;
+  width: 80%;    
+  max-width: 36rem;
+  margin-bottom: .8rem;
+
+  /* background-color: #316979; */
+
+
+}
+
+
+.card__flex{
+  display: flex;
+  gap: 20px;
+}
+
+.card__input input {
+  
+  padding-left: 1rem;
+  background-color: #fafaff;
+  font-size: var(--FS--2);
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: .5rem;
+  flex: 1 ;
+  align-self:stretch;
+  /* stretches input to button length */
+
+}
+
+.card__input button {
+  padding: 1.1rem 2rem;
+  border-radius: .5rem;
+  background-color: var(--button-color);
+  color: var(--background-color);
+  font-size: large;
+  
+
+
+}
+
+.card__terms {
+  font-size: var(--FS--4);
+  font-family: var(--Font2);
+  font-weight: 100;
+  margin-top: .8rem;
+
+  display: flex;
+  gap: 5px;
+
+  
+
+  
+
+}
+
+.card__checkbox {
+  accent-color: #9d3039;
+
+}
